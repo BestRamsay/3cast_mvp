@@ -1,0 +1,15 @@
+[features]
+seeds = false
+
+[programs.devnet]
+solana_summer_camp_program = "Fut2bkchu5WcnwF76hegYhskFFLjop32azbhaucPkZaK"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/username/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
